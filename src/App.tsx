@@ -48,9 +48,36 @@ function App() {
             </div>
           </div>
         </div>
+        <div className="ct-subheadline ">
+          <div className="ct-subheadline-deco-line"></div>
+          <div className="ct-subheadline-label ">Featured Mugs</div>
+
+          <div className="ct-subheadline-deco-line"></div>
+        </div>
         <div className="featured-mugs">featured-mugs</div>
+        <div className="ct-subheadline ">
+          <div className="ct-subheadline-deco-line"></div>
+          <div className="ct-subheadline-label ">More products</div>
+
+          <div className="ct-subheadline-deco-line"></div>
+        </div>
         <div className="more-products">more-products</div>
+        <div className="ct-subheadline ">
+          <div className="ct-subheadline-deco-line"></div>
+          <div className="ct-subheadline-label ">
+            BUY 2 MUGS AND GET A COFFEE MAGAZINE FREE
+          </div>
+
+          <div className="ct-subheadline-deco-line"></div>
+        </div>
         <div className="coffee-magazine">coffee-magazine</div>
+        <div className="ct-subheadline ">
+          <div className="ct-subheadline-deco-line"></div>
+          <div className="ct-subheadline-label ">
+            BEHIND THE MUGS, LIFESTYLE STORIES
+          </div>
+          <div className="ct-subheadline-deco-line"></div>
+        </div>
         <div className="lifestyle-stories">lifestyle-stories</div>
         <div className="subscribe-us">subscribe-us</div>
       </main>
