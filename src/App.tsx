@@ -111,7 +111,160 @@ function App() {
 
           <div className="ct-subheadline-deco-line"></div>
         </div>
-        <div className="more-products">more-products</div>
+        <div className="more-products w-[95%] lg:w-[65%] mx-auto mb-24 ">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 gap-y-8 md:gap-4">
+            <div className="ct-product-card">
+              <div className="h-[380px] bg-[url('./assets/images/mugs1.jpg')] bg-cover bg-no-repeat bg-center">
+                <a href="#!" className="">
+                  <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-300 relative group">
+                    <div className="ct-button absolute bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn ">
+                      Explore Mug
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div className="text-center mt-8 ">
+                <a href="#!" className="">
+                  <div className="text-ml m-3 hover:text-coffee-400">
+                    Pink Premium Ceramic
+                  </div>
+                </a>
+                <div className="">
+                  <span className="text-gray-500">$ 99.00 USD</span>
+                </div>
+              </div>
+            </div>
+            <div className="ct-product-card">
+              <div className="h-[380px] bg-[url('./assets/images/mugs2.jpg')] bg-cover bg-no-repeat bg-center">
+                <a href="#!" className="">
+                  <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-300 relative group">
+                    <div className="absolute bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 text-center hidden group-hover:block group-hover:animate-fadeIn uppercase tracking-wider py-4 px-6 text-sm font-medium cursor-pointer hover:bg-opacity-75">
+                      Explore Mug
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div className="text-center mt-8 ">
+                <a href="#!" className="">
+                  <div className="text-ml m-3 hover:text-coffee-400">
+                    Golden Designers Mug
+                  </div>
+                </a>
+                <div className="">
+                  <span className="text-lg text-coffee-400">$50.00</span>
+                  <span className="ml-2 text-gray-400 line-through">
+                    $ 69.00 USDs
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="ct-product-card">
+              <div className="h-[380px] bg-[url('./assets/images/mugs3.jpg')] bg-cover bg-no-repeat bg-center">
+                <a href="#!" className="">
+                  <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-300 relative group">
+                    <div className="absolute w-[100px] bg-white px-4 py-2 top-3 right-3 text-center font-semibold text-coffee-400">
+                      On Sale.
+                    </div>
+                    <div className="absolute bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 text-center hidden group-hover:block group-hover:animate-fadeIn uppercase tracking-wider py-4 px-6 text-sm font-medium cursor-pointer hover:bg-opacity-75">
+                      Explore Mug
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div className="text-center mt-8 ">
+                <a href="#!" className="">
+                  <div className="text-ml m-3 hover:text-coffee-400">
+                    Golden Designers Mug
+                  </div>
+                </a>
+                <div className="">
+                  <span className="text-lg text-coffee-400">$50.00</span>
+                  <span className="ml-2 text-gray-400 line-through">
+                    $ 69.00 USDs
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="ct-product-card">
+              <div className="h-[380px] bg-[url('./assets/images/mugs4.jpg')] bg-cover bg-no-repeat bg-center">
+                <a href="#!" className="">
+                  <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-300 relative group">
+                    <div className="absolute w-[100px] bg-white px-4 py-2 top-3 right-3 text-center font-semibold text-coffee-400">
+                      On Sale.
+                    </div>
+                    <div className="absolute bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 text-center hidden group-hover:block group-hover:animate-fadeIn uppercase tracking-wider py-4 px-6 text-sm font-medium cursor-pointer hover:bg-opacity-75">
+                      Explore Mug
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div className="text-center mt-8 ">
+                <a href="#!" className="">
+                  <div className="text-ml m-3 hover:text-coffee-400">
+                    Golden Designers Mug
+                  </div>
+                </a>
+                <div className="">
+                  <span className="text-lg text-coffee-400">$50.00</span>
+                  <span className="ml-2 text-gray-400 line-through">
+                    $ 69.00 USDs
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="ct-product-card">
+              <div className="h-[380px] bg-[url('./assets/images/mugs5.jpg')] bg-cover bg-no-repeat bg-center">
+                <a href="#!" className="">
+                  <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-300 relative group">
+                    <div className="absolute bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 text-center hidden group-hover:block group-hover:animate-fadeIn uppercase tracking-wider py-4 px-6 text-sm font-medium cursor-pointer hover:bg-opacity-75">
+                      Explore Mug
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div className="text-center mt-8 ">
+                <a href="#!" className="">
+                  <div className="text-ml m-3 hover:text-coffee-400">
+                    Golden Designers Mug
+                  </div>
+                </a>
+                <div className="">
+                  <span className="text-lg text-coffee-400">$50.00</span>
+                  <span className="ml-2 text-gray-400 line-through">
+                    $ 69.00 USDs
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="ct-product-card">
+              <div className="h-[380px] bg-[url('./assets/images/mugs6.jpg')] bg-cover bg-no-repeat bg-center">
+                <a href="#!" className="">
+                  <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-300 relative group">
+                    <div className="absolute w-[100px] bg-white px-4 py-2 top-3 right-3 text-center font-semibold text-coffee-400">
+                      On Sale.
+                    </div>
+                    <div className="absolute bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 text-center hidden group-hover:block group-hover:animate-fadeIn uppercase tracking-wider py-4 px-6 text-sm font-medium cursor-pointer hover:bg-opacity-75">
+                      Explore Mug
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div className="text-center mt-8 ">
+                <a href="#!" className="">
+                  <div className="text-ml m-3 hover:text-coffee-400">
+                    Golden Designers Mug
+                  </div>
+                </a>
+                <div className="">
+                  <span className="text-lg text-coffee-400">$50.00</span>
+                  <span className="ml-2 text-gray-400 line-through">
+                    $ 69.00 USDs
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="ct-subheadline ">
           <div className="ct-subheadline-deco-line"></div>
           <div className="ct-subheadline-label ">
