@@ -474,9 +474,39 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="subscribe-us">subscribe-us</div>
+        <div className="subscribe-us h-[350px] bg-[#1d1f2e] mb-24 flex flex-col justify-center items-center px-6">
+          <div className=" flex justify-center items-center mb-3">
+            <div className="w-8 h-px bg-gray-500"></div>
+            <div className="uppercase mx-4 tracking-widest text-gray-400 font-bold text-[12px] text-center">
+              SIGN UP AND GET FREE COFFEE BAGS
+            </div>
+            <div className="w-8 h-px bg-gray-500"></div>
+          </div>
+          <div className="text-4xl mb-3 md:text-nowrap text-white ">
+            Coffee Updates
+          </div>
+          <div className="ct-form text-center">
+            <div className="flex flex-col md:flex-row items-center justify-center gap-3">
+              <div className="ct-form-item">
+                <input
+                  type="email"
+                  placeholder="customer@coffeestyle.io"
+                  className="px-4 py-4 w-[350px] max-w-[80%] xs:max-w-full bg-inherit border border-solid border-gray-700 outline-none text-white leading-5 hover:border-gray-300 duration-500 focus:border-gray-300 placeholder:uppercase placeholder:text-xs placeholder:tracking-widest placeholder:font-semibold"
+                />
+              </div>
+              <div className="ct-form-item">
+                <button
+                  type="submit"
+                  className="ct-button w-[350px] md:w-max bg-white text-gray-900 text-sx"
+                >
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
       </main>
-      <footer>footer</footer>
+      <footer className="">footer</footer>
     </div>
   );
 }
