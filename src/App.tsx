@@ -384,6 +384,7 @@ function App() {
             </div>
           </div>
         </div>
+        <div className="ct-parallax-section h-[340px] bg-[url('./assets/images/parallax.jpg')] bg-cover bg-no-repeat bg-center mb-24 bg-fixed w-[100vw] relative left-[calc(-50vw+50%)]"></div>
         <div className="ct-subheadline ">
           <div className="ct-subheadline-deco-line"></div>
           <div className="ct-subheadline-label ">
