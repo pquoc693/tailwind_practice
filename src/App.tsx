@@ -392,7 +392,88 @@ function App() {
           </div>
           <div className="ct-subheadline-deco-line"></div>
         </div>
-        <div className="lifestyle-stories">lifestyle-stories</div>
+        <div className="lifestyle-stories w-[95%] xl:w-[65%] mx-auto mb-24">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 gap-y-8 md:gap-4">
+            <div className="ct-lifestyle-story-card">
+              <div className="h-[300px] bg-[url('./assets/images/story1.jpg')] bg-cover bg-no-repeat bg-center">
+                <a href="#!" className="">
+                  <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-300 relative group">
+                    <div className="ct-button absolute bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn ">
+                      Read the full story
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div className="text-center lg:text-left my-6">
+                <a href="#!" className="">
+                  <div className="text-ml hover:text-coffee-400 mb-3">
+                    Health Check: why do I get a headache when I haven&apos;t
+                    had my coffee?
+                  </div>
+                </a>
+                <div className="text-gray-500 leading-7 mb-3">
+                  It is a paradisematic country, in which roasted parts of
+                  sentences fly into your mouth.
+                </div>
+                <div className="text-gray-500 leading-7 uppercase text-[13px] font-semibold tracking-wider">
+                  OCTOBER 9, 2018
+                </div>
+              </div>
+            </div>
+            <div className="ct-lifestyle-story-card">
+              <div className="h-[300px] bg-[url('./assets/images/story2.jpg')] bg-cover bg-no-repeat bg-center">
+                <a href="#!" className="">
+                  <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-300 relative group">
+                    <div className="ct-button absolute bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn ">
+                      Read the full story
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div className="text-center lg:text-left my-6">
+                <a href="#!" className="">
+                  <div className="text-ml hover:text-coffee-400 mb-3">
+                    Health Check: why do I get a headache when I haven&apos;t
+                    had my coffee?
+                  </div>
+                </a>
+                <div className="text-gray-500 leading-7 mb-3">
+                  It is a paradisematic country, in which roasted parts of
+                  sentences fly into your mouth.
+                </div>
+                <div className="text-gray-500 leading-7 uppercase text-[13px] font-semibold tracking-wider">
+                  OCTOBER 9, 2018
+                </div>
+              </div>
+            </div>
+            <div className="ct-lifestyle-story-card md:col-[1/4] md:w-[50%] md:mx-auto lg:w-[auto] lg:col-[unset]">
+              <div className="h-[300px] bg-[url('./assets/images/story3.jpg')] bg-cover bg-no-repeat bg-center">
+                <a href="#!" className="">
+                  <div className="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-300 relative group">
+                    <div className="ct-button absolute bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn ">
+                      Read the full story
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div className="text-center lg:text-left my-6">
+                <a href="#!" className="">
+                  <div className="text-ml hover:text-coffee-400 mb-3">
+                    Health Check: why do I get a headache when I haven&apos;t
+                    had my coffee?
+                  </div>
+                </a>
+                <div className="text-gray-500 leading-7 mb-3">
+                  It is a paradisematic country, in which roasted parts of
+                  sentences fly into your mouth.
+                </div>
+                <div className="text-gray-500 leading-7 uppercase text-[13px] font-semibold tracking-wider">
+                  OCTOBER 9, 2018
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="subscribe-us">subscribe-us</div>
       </main>
       <footer>footer</footer>
