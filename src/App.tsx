@@ -6,7 +6,7 @@ function App() {
     <div className="content-wrapper font-Karla mx-auto max-w-screen-2xl px-8 text-base">
       <Header />
       <main>
-        <div className="slider h-[530px] bg-[url('./assets/images/slide.jpg')] bg-cover bg-no-repeat bg-bottom">
+        <div className="slider h-[530px] bg-[url('./assets/images/slide.jpg')] bg-cover bg-no-repeat bg-bottom mb-24">
           <div className="w-full h-full flex justify-center items-center bg-gray-900 bg-opacity-40">
             <div className="mx-16 text-white text-center">
               <div className="uppercase mb-6">Best place to buy design</div>
@@ -23,29 +23,47 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="story">
-          <div className="w-full h-full flex justify-center items-center">
-            <div className="px-4 sm:px-16 md:px-32 lg:px-64 xl:px-96 py-32 text-center">
-              <div className="text-3xl mb-6 leading-10">
-                Even the all-powerful Pointing has no control about the blind
-                texts.
-              </div>
-              <div className="text-gray-500 leading-7 mb-6">
-                It is a paradisematic country, in which roasted parts of
-                sentences fly into your mouth.
-                <br /> Even the all-powerful Pointing has no control about the
-                blind texts it is an almost unorthographic life One day however
-                a small line of blind text by the name of Lorem Ipsum decided to
-                leave for the far World of Grammar.
-              </div>
-              <div className="flex justify-center items-center">
-                <a
-                  href="#!"
-                  className="text-coffee-400 hover:text-coffee-600 relative after:absolute after:-bottom-2 after:left-0 after:bg-coffee-200 hover:after:bg-coffee-600 after:h-0.5 after:w-full after:transition-all after:ease-in-out after:duration-300"
-                >
-                  Read the full Story
-                </a>
-              </div>
+        <div className="ct-subheadline ">
+          <div className="ct-subheadline-deco-line"></div>
+          <div className="ct-subheadline-label ">Our coffee story</div>
+
+          <div className="ct-subheadline-deco-line"></div>
+        </div>
+        <div className="story flex flex-col lg:flex-row justify-center gap-8 lg:gap-4 items-center w-[95%] lg:w-[65%] mx-auto mb-24">
+          <div className="basis-1/2">
+            {/* <video autoPlay muted loop className="">
+              <source
+                src="./assets/videos/coffee.mp4"
+                type="video/mp4"
+              ></source>
+            </video> */}
+            <video
+              controls
+              className="w-full h-full object-cover min-h-[350px]"
+            >
+              <source src="./assets/videos/coffee1.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div className="basis-1/2 text-center lg:text-left lg:pl-8">
+            <div className="text-3xl mb-6 leading-10">
+              Even the all-powerful Pointing has no control about the blind
+              texts.
+            </div>
+            <div className="text-gray-500 leading-7 mb-6">
+              It is a paradisematic country, in which roasted parts of sentences
+              fly into your mouth.
+              <br /> Even the all-powerful Pointing has no control about the
+              blind texts it is an almost unorthographic life One day however a
+              small line of blind text by the name of Lorem Ipsum decided to
+              leave for the far World of Grammar.
+            </div>
+            <div className="flex justify-center items-center">
+              <a
+                href="#!"
+                className="text-coffee-400 hover:text-coffee-600 relative after:absolute after:-bottom-2 after:left-0 after:bg-coffee-200 hover:after:bg-coffee-600 after:h-0.5 after:w-full after:transition-all after:ease-in-out after:duration-300"
+              >
+                Read the full Story
+              </a>
             </div>
           </div>
         </div>
@@ -385,7 +403,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="ct-parallax-section h-[340px] bg-[url('./assets/images/parallax.jpg')] bg-cover bg-no-repeat bg-center mb-24 bg-fixed w-[100vw] relative left-[calc(-50vw+50%)]"></div>
+        <div className="ct-parallax-section bg-[url('./assets/images/parallax.jpg')] bg-cover bg-no-repeat bg-center mb-24 bg-fixed h-[400px] md:h-[500px] w-[100vw] relative left-[calc(-50vw+50%)]"></div>
         <div className="ct-subheadline ">
           <div className="ct-subheadline-deco-line"></div>
           <div className="ct-subheadline-label ">
